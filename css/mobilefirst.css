@@ -25,6 +25,8 @@ header {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.144);
     padding: 0 1.2rem;
     font-family: var(--font-sans-serif);
+    position: sticky;
+    top: 0;
 }
 
 
@@ -267,6 +269,7 @@ header ul {
     font-size: 1rem;
     color: #7246E5;
     text-decoration: none;
+    font-family: var(--font-sans-serif);
 
 }
 
