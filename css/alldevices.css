@@ -1,0 +1,76 @@
+@media screen and (min-width: 768px) and (max-width: 992px ) {
+
+    #menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .imagens-header > a {
+        display: none;
+    }
+
+    .imagens-header > #logo-devices-big {
+        display: block;
+        margin-top: .5rem;
+
+    }
+
+    #menu > .material-symbols-outlined {
+        display: none;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+    .btns > .contratar {
+        padding: 11px 3.4rem;
+
+        
+    }
+
+    .btns > .contratar:hover {
+        background-color: #4d2ba3;
+        transition: .3s
+    }
+    
+    .cards-container {
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        gap: 30px;
+    }
+
+    .cards {
+        width: 45%;
+    }
+
+    .part2-container {
+        display: flex;
+        
+    }
+
+
+
+    .img-container-part2 img {
+        width: 100%;
+        padding-left: 1rem;
+        
+
+
+    }
+
+
+    .media {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+}

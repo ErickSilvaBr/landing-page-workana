@@ -228,7 +228,7 @@ header ul {
 }
 
 .img-container-part2 img {
-    width: 95%;
+    max-width: 90%;
     border-radius: 50%;
     opacity: 0.9;
 
